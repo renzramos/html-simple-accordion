@@ -1,0 +1,48 @@
+/* faq */
+.section-faq h1 {
+    margin-top: 0px;
+}
+.faq-container {
+    margin-top: 20px;
+}
+.faq-container h2 {
+    color: #2C596D;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.faq-container h3 {
+    background: #EEEEEE;
+    color: #2C596D;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.faq-container h3.active span {
+    font-size: 18px;
+    top: 8px;
+}
+.faq .content p, 
+.faq .content li {
+    font-size: 16px;
+    color: #2C596D;
+    margin-top: 0px;
+}
+.faq .content {
+    padding: 10px;
+    display: none;
+    padding-top: 0px;
+}
+.faq .toggle {
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 5px;
+}
+/* faq */
